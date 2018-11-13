@@ -11,8 +11,9 @@
 * Anik Paul Gomes
 * Zachary Haider
 * Goutham Neravetla
+
 ## Our cenario: 
-You are a computer scientice by day and a thespian by night. The theater you work for decieds that everyone gets to pick shakespearian name and will be that charecter in every play regardless of the signifigance. Ofilia the star of Twelfth Night crazy victum in Hamlet. All you care about however, is the number of lines you can read. More lines = longer on stage =  more time to be descovered. Here is what you do.
+You are a computer scientist by day and a thespian by night. The theater you work for decides that everyone gets to pick Shakespearean name and will be that character in every play regardless of the significance. Ofelia, the star of Twelfth Night and crazy victim in Hamlet. All you care about however, is the number of lines you can read. More lines = longer on stage =  more time to be discovered. Here is what you do.
 
 ## What we wish we knew:
 
@@ -21,12 +22,12 @@ You are a computer scientice by day and a thespian by night. The theater you wor
 ## Our code:
 
 ### Step one:
-First download a play from [here](http://shakespeare.mit.edu/). Any of the plays should work in this project so long as it is from the link provided, this project uses Romeo and Juliet. This Project is useing this data because they all have the same format and we are parceing the html.
-# picture link here
+First download a play from [here](http://shakespeare.mit.edu/). Any of the plays should work in this project so long as it is from the link provided, this project uses Romeo and Juliet. (If you are following the scenario then you would aggregate all of them into one doc.) This Project is using this data because they all have the same format and we are parsing the html. 
+
 
 ### Step 2:
 
-- From here we will be working with the undersatdning that you have the required programs installed, if you don't have them install before proceding.
+- From here we will be working with the understating that you have the required programs installed, if you don't have them install before proceeding.
 - Open the spark shell 
   - windows users run the C:\.spark-2.4.0-bin-hadoop2.7\bin\spark-shell.cmd from the command line or git bash 
   - MAC and linux users run ~/.spark-2.4.0-bin-hadoop2.7/bin/spark-shell
@@ -34,11 +35,11 @@ First download a play from [here](http://shakespeare.mit.edu/). Any of the plays
   
 ### Step 3:
 
-From the spark shell create a vairable for our regex string.
+From the spark shell create a variable for our regex string.
 
 		val regex = "^((?!<b>(.*?)</b>).)*"  
 
-The string here will select every node in the html other than the bolded charecter names. we will use this in the next step to split the doc for the information we need. 
+The string here will select every node in the html other than the bold character names. we will use this in the next step to split the doc for the information we need. 
 ![](https://github.com/zacharyhaider/Modual6WS/blob/master/regex.png)
 
 ### Step 4:
