@@ -66,6 +66,7 @@ From here things get complicated. This is all one command.
 Now we just need to get our results we can simply return them to the scala command line. 
 	
 	topWordCount.take(10).foreach(x=>println(x))
+![](https://github.com/zacharyhaider/Modual6WS/blob/master/results.png)
 
 ## Sources 
 https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-rdd.html
