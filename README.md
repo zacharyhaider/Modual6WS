@@ -70,4 +70,5 @@ Now we just need to get our results we can simply return them to the scala comma
 
 ## Sources 
 https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-rdd.html
+
 http://shakespeare.mit.edu/
