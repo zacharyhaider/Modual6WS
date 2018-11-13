@@ -15,7 +15,6 @@
 ## Our cenario: 
 You are a computer scientist by day and a thespian by night. The theater you work for decides that everyone gets to pick Shakespearean name and will be that character in every play regardless of the significance. Ofelia, the star of Twelfth Night and crazy victim in Hamlet. All you care about however, is the number of lines you can read. More lines = longer on stage =  more time to be discovered. Here is what you do.
 
-## What we wish we knew:
 
 
 
@@ -68,6 +67,8 @@ Now we just need to get our results we can simply return them to the scala comma
 	topWordCount.take(10).foreach(x=>println(x))
 ![](https://github.com/zacharyhaider/Modual6WS/blob/master/results.png)
 
+## What we wish we knew:
+Our code is far from perfect is mostly a slightly more complicated word count, but that is what we were going for. Our initial problem was that we were trying to filter results based on the bold text and where splitting the text doc without the html tags. This meant we had to use both a regex for our split and added another filter. This proved more complicated than it needed to be and cost us a lot of time. Most of the difficult hurtles came from the regex and getting our information clean.
 ## Sources 
 https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-rdd.html
 
