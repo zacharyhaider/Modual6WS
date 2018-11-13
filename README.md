@@ -63,6 +63,7 @@ From here things get complicated. This is all one command.
 
 ### Step 6:
 Now we just need to get our results we can simply return them to the scala command line. 
+	
 	topWordCount.take(10).foreach(x=>println(x))
 
 ## Sources 
